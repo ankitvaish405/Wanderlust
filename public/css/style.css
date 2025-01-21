@@ -205,5 +205,14 @@ body{
     align-items: center;
 }
 
+.login-btn{
+    background-color: #fe424d;
+    color: #fff;
+}
+
+.login-btn:hover{
+    background-color: #fe424d;
+    color: #fff;
+}
 
 
