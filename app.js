@@ -22,7 +22,6 @@ const userRouter = require("./routes/user.js");
 const dburl = process.env.ATLASDB_URL;
 
 main()
-    .connect(dburl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("connected to DB");
     })
