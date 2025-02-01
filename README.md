@@ -1,5 +1,7 @@
 # Wanderlust
 
+![image](https://github.com/user-attachments/assets/d446a24c-10c4-4214-8a9b-93f39dc3bee0)
+
 Wanderlust is an innovative web application designed to connect travelers with unique accommodations, destinations, and experiences around the world. Whether you're an adventure seeker looking for off-the-grid stays, a business traveler seeking comfortable short-term rentals, or a tourist searching for luxury hotels, Wanderlust provides an easy-to-use platform to find, book, and manage accommodations effortlessly.
 
 This project aims to simplify the travel planning process by offering a seamless, feature-rich, and community-driven platform
@@ -133,6 +135,8 @@ Contributions are welcome! Follow these steps to contribute:
    git push origin feature/YourFeatureName
    ```
 6. **Open a Pull Request.**
+
+![image](https://github.com/user-attachments/assets/ad4e1fb2-ed0b-4fd8-b54e-73cd254ef598)
 
 Please ensure your code follows the project's coding standards and includes appropriate tests.
 
