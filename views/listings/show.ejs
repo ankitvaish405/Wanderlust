@@ -139,7 +139,7 @@
           ></p>
           <p class="card-text"><%= review.comment %></p>
         </div>
-        <% if(User) { %>
+        <% if( User && User._id.equals(review.author._id) ) { %>
         <form
           action="/listings/<%= indiData._id%>/reviews/<%= review._id %>?_method=DELETE"
           method="post"
