@@ -15,15 +15,12 @@ This project aims to simplify the travel planning process by offering a seamless
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
 ## Features
 ✅ **User Authentication**: Secure login and registration for users.  
 ✅ **Property Listings**: Users can list their properties with images, descriptions, and pricing.  
-✅ **Booking System**: Users can book properties and manage reservations.  
-✅ **Search Functionality**: Advanced search and filter options for finding the perfect stay.  
 ✅ **Responsive Design**: Optimized for seamless user experience across all devices.
 
 ---
@@ -51,6 +48,11 @@ This project aims to simplify the travel planning process by offering a seamless
 
 ### Cloud Services:
 - Cloudinary (for image storage)
+
+### MVC Framework:
+Model: Manages data and business logic
+View: Handles layout and display
+Controller: Routes commands to the model and view parts
 
 ---
 
@@ -84,7 +86,7 @@ To run this project locally, follow these steps:
    ```bash
    node app.js
    ```
-   The application will be running at [http://localhost:3000](http://localhost:3000) (or your specified port).
+   The application will be running at [http://localhost:8080](http://localhost:8080) (or your specified port).
 
 ---
 
@@ -92,8 +94,6 @@ To run this project locally, follow these steps:
 
 - **Sign Up:** Create an account to access all features.
 - **Create a Listing:** List a property with all necessary details.
-- **Search for Properties:** Use the search bar and filters to find accommodations.
-- **Book a Property:** Reserve a stay and complete the booking process.
 - **Leave a Review:** Share your experience by leaving reviews on properties.
 
 ---
@@ -144,9 +144,4 @@ Please ensure your code follows the project's coding standards and includes appr
 
 ## License
 This project is licensed under the **MIT License**.
-
----
-
-## Acknowledgments
-Special thanks to all contributors, mentors, and resources that helped in the development of this project.
 
