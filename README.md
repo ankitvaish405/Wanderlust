@@ -77,10 +77,11 @@ To run this project locally, follow these steps:
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_API_KEY=your_api_key
    CLOUDINARY_API_SECRET=your_api_secret
-   MONGODB_URI=your_mongodb_uri
+   MONGODB_URI=your_mongodb_url
    SESSION_SECRET=your_session_secret
+   MAP_TOKEN=your_maptoken_url
    ```
-   Replace `your_cloud_name`, `your_api_key`, `your_api_secret`, `your_mongodb_uri`, and `your_session_secret` with your actual configuration details.
+   Replace `your_cloud_name`, `your_api_key`, `your_api_secret`, `your_mongodb_url`, `your_maptoken_url`, and `your_session_secret` with your actual configuration details.
 
 4. **Start the application:**
    ```bash
