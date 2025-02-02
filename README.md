@@ -50,9 +50,9 @@ This project aims to simplify the travel planning process by offering a seamless
 - Cloudinary (for image storage)
 
 ### MVC Framework:
-Model: Manages data and business logic
-View: Handles layout and display
-Controller: Routes commands to the model and view parts
+- Model: Manages data and business logic
+- View: Handles layout and display
+- Controller: Routes commands to the model and view parts
 
 ---
 
