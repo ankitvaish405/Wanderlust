@@ -44,6 +44,11 @@ body {
   margin-right: 1rem;
 }
 
+.f-info-socials a{
+  color: black;
+  border: none;
+}
+
 .f-info {
   text-align: center;
   height: 8rem;
