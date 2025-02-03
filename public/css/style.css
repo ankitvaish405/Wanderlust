@@ -181,7 +181,7 @@ body {
   }
   .card-review-box{
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
     width: 80% !important;
     align-items: center !important;
   }
