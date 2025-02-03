@@ -10,7 +10,7 @@ module.exports.loggedIn = ((req, res, next) => {
         //redirect URL
         req.session.redirectURL = req.originalUrl;
         req.flash("error", "You must be logged in to create a new listing");
-        res.redirect("/login");
+        return res.redirect("/login");
     }
     next();
 })
