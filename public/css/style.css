@@ -176,6 +176,15 @@ body {
     font-size: 0.9rem;
     width: 130%;
   }
+  body{
+    overflow-x: hidden;
+  }
+  .card-review-box{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 950px) {
